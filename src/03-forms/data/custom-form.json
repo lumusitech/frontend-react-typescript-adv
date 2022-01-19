@@ -1,0 +1,70 @@
+[
+  {
+    "type": "input",
+    "name": "firstname",
+    "placeholder": "Luciano",
+    "label": "first name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "minLegth",
+        "value": 5
+      }
+    ]
+  },
+  {
+    "type": "input",
+    "name": "lastname",
+    "placeholder": "Figueroa",
+    "label": "last name",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  },
+  {
+    "type": "email",
+    "name": "email",
+    "placeholder": "lux@mail.com",
+    "label": "email",
+    "value": "",
+    "validations": [
+      {
+        "type": "required"
+      },
+      {
+        "type": "email"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "name": "favouriteGame",
+    "label": "favourite game",
+    "value": "",
+    "options": [
+      {
+        "id": "1",
+        "label": "Smash"
+      },
+      {
+        "id": "2",
+        "label": "Gear"
+      },
+      {
+        "id": "3",
+        "label": "Resident Evil"
+      }
+    ],
+    "validations": [
+      {
+        "type": "required"
+      }
+    ]
+  }
+]
